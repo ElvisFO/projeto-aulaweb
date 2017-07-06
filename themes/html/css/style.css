@@ -1,0 +1,48 @@
+.main_logo{position: relative; width: 246px; height: 60px;}
+.main_logo a{position: absolute; width: 240px; height: 60px; background: url(../img/logo-support-info.jpg) center center no-repeat; background-size: auto 76%;}
+
+.main_nav{width: auto; margin-top: 10px;}
+.main_nav li{float: left;}
+.main_nav a{float: left; padding: 12px 16px; color: #222; font-weight: 300; font-size: 1.2em;}
+.main_nav a:hover{color: #208C05; text-decoration: underline;}
+
+.main_cont p{font-size: 1.2em; font-weight: 300;}
+.main_cont h1{margin-top:  30px;}
+
+.main_tec_item{padding: 15px 30px; margin-bottom: 30px; min-height: 350px;}
+.main_tec_item:hover{background: #208C05; color: #fff; -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3); box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);}
+.main_tec_item img{padding: 25px; width: 80%; margin: 0 10%; background: #eee; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; margin-bottom: 15px;}
+.main_tec_item h1{font-size: 1.4em; margin-bottom: 15px;}
+.main_tec_item p{font-size: 0.9em; font-weight: normal;}
+
+.main_footer hr{ width: 80%; margin: 0 10%;}
+.main_footer p {margin-bottom: 10px; margin-top: 10px;}
+.main_footer h1 {margin: 10px 0px; color:#208C05;}
+.main_footer a {color: #208C05;}
+.main_footer a:hover{text-decoration: underline;}
+.link_color a{color: #208C05; }
+.link_color li{margin-bottom: 20px;}
+
+/*EFEITO SLIDES*/
+#slides{
+    width: 1080px;
+    height:  565px;
+    margin: 0 auto;
+    overflow: hidden;
+-webkit-box-shadow: 0px 30px 3px 0px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3); box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+}
+
+#slides img{
+     width: 1080px;
+    height:  565px;
+}
+
+/*AJUSTANDO MAPA*/
+.mapframe iframe {position: absolute; top: 40%; right: 10%; width: 420px; height: 330px;}
+
+.contact {position: absolute; top: 93%; right: 10%; width: 400px; height: 200px;}
+.contact span{font-weight: bold;}
+.contact a{color: #208C05; }
+.contact a:hover{text-decoration: underline; cursor: pointer;}
+
